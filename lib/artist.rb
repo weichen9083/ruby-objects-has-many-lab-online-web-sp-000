@@ -6,6 +6,10 @@ class Artist
     self.name = name 
   end 
   
+  def songs 
+    Song.all
+  end 
+  
   
 
 
