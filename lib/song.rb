@@ -9,6 +9,7 @@
       end 
       
       def songs 
+        self.class.all
       end 
       
       
