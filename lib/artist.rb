@@ -6,9 +6,9 @@ class Artist
     self.name = name 
   end 
   
-  def songs 
-    Song.all
-  end 
+      def songs
+        Song.all.select {|song| song.artist == self}
+      end
   
   
 
